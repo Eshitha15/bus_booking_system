@@ -1,0 +1,44 @@
+/* Centering the Dashboard */
+.dashboard-container, .bus-results-container {
+    width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Form Styling */
+select, input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+/* Bus Cards */
+.bus-card {
+    width: 100%;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    margin: 10px 0;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
